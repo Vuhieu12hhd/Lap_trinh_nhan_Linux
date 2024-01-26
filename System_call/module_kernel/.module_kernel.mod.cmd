@@ -1,0 +1,1 @@
+cmd_/home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.mod := printf '%s\n'   module_kernel.o | awk '!x[$$0]++ { print("/home/vuhieu/Desktop/CT040120/module_kernel/"$$0) }' > /home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.mod

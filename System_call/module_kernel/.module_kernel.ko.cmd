@@ -1,0 +1,1 @@
+cmd_/home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.ko /home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.o /home/vuhieu/Desktop/CT040120/module_kernel/module_kernel.mod.o;  true
